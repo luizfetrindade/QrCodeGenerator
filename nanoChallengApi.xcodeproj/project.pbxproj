@@ -25,7 +25,7 @@
 		6DB4747C22664BA900BC03D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DB4747E22664BA900BC03D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DB474842266503F00BC03D3 /* CustomTableViewCellToQr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellToQr.swift; sourceTree = "<group>"; };
-		6DB474862266579200BC03D3 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		6DB474862266579200BC03D3 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Request.swift; path = ../Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,6 @@
 			children = (
 				6DB4747122664BA800BC03D3 /* nanoChallengApi */,
 				6DB4747022664BA800BC03D3 /* Products */,
-				6DB474862266579200BC03D3 /* Request.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +58,7 @@
 		6DB4747122664BA800BC03D3 /* nanoChallengApi */ = {
 			isa = PBXGroup;
 			children = (
+				6DB474862266579200BC03D3 /* Request.swift */,
 				6DB4747222664BA800BC03D3 /* AppDelegate.swift */,
 				6DB4747422664BA800BC03D3 /* ViewController.swift */,
 				6DB4747622664BA800BC03D3 /* Main.storyboard */,
